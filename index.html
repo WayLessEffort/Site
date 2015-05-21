@@ -23,6 +23,7 @@
           <div class = "col-xs-6 text-right">
                <img src = "img/wleLogo.jpg"> 
           </div> 
+
           <div class= "col-xs-6 text-left">
             <a href = "events.html">
             <img src = "img/index/noRequestsBefore.jpg"
@@ -54,9 +55,12 @@
     <div class = "container-fluid" id = "mobile">
       <div class = "row">
           <div class = "col-lg-6 text-center">
-               <img src = "img/wleLogo.jpg"> 
+               <img src = "img/wleLogo.jpg"> <h4>ANTI LABEL DJ OUTFIT</h4>
+               <h5>HOMIES</h5>
           </div> 
           <br>
+           
+           <br>
           <div class= "col-lg-6 text-center">
               <a href = "events.html">
             <img src = "img/index/noRequestsBefore.jpg"
@@ -64,8 +68,9 @@
             onmouseout = "this.src='img/index/noRequestsBefore.jpg'">
             </a>
           </div>
-          <br>
+          
       </div>
+      <br>
       <div class = "row">
           <div class = "col-lg-6 text-center"> 
                
@@ -74,7 +79,7 @@
               onmouseout= "this.src='img/index/musicBefore.jpg'">
             </a>
           </div> 
-          
+          <br>
           <div class= "col-lg-6 text-center">
               <a href = "roster.html" ><img src = "img/index/rosterBefore.jpg"
             onmouseover= "this.src='img/index/rosterAfter.jpg'"
@@ -125,10 +130,16 @@
               #desktop{
                 display: none;
               }
+              img{
+                max-width: 70%;
+              }
             }
             @media (min-width: 800px) {
               #mobile{
                 display: none;
+              }
+              img{
+                max-width: 50%;
               }
             }
             .row {
@@ -143,15 +154,13 @@
             #mobile iframe{
               max-width: 100%;
             }
-            label,form{
+            label,form, h4{
               font-family: "Courier New";
             }
             #mail{
               text-align: center;
             }
-            img{
-              max-width: 60%;
-            }
+          
             
         </style> 
 
