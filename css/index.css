@@ -1,0 +1,25 @@
+@media (max-width: 800px) {
+	  #desktop{
+	    display: none;
+	  }
+	  img{
+	    max-width: 80%;
+	  }
+	}
+	@media (min-width: 800px) {
+		#bottomSquares {
+			padding-top: 30px;
+		}
+	  #mobile{
+	    display: none;
+	  }
+	  img{
+	    max-width: 60%;
+	  }
+	}
+	@media (min-width: 1200px) {
+	  img{
+	    max-width: 40%;
+	  }
+	}
+} 

@@ -12,26 +12,10 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" />
-    <style>
-      #icons{
-        max-height: 50px;
-      }
-      #socialDiv{
-        position: relative;
-        top: -40px;
-      }
-      #events img{
-        width: 90%;
-      }
-      .menu img{
-        max-width: 20%;
-      }
-      body, label,form{
-	    font-family: "Courier New";
-	  }
-      #mail{
-	      text-align: center;
-	    }
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/events.css">
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
     </style>
   </head>
   <body>
@@ -52,46 +36,54 @@
 
         <div class= "container" id = "events">
         	<div class = "row">
-            	<div class = "col-xs-12 text-center" >
+            	<div class = "col-xs-10 col-xs-offset-1 text-center" >
             		<h1>Soulection x WLE 5/19</h1> 
       				<p>it was dope</p>
            		</div>
+              <br>
            	</div>
+            <div class = "row">
+              <div class = "col-xs-10 col-xs-offset-1" id = "vidContainer" >
+                <div class= "videoWrapper"> 
+              <iframe width="400" height="315" src="https://www.youtube.com/embed/10P2KtrdYAY" frameborder="0" allowfullscreen></iframe>
+            </div>
+              </div>
+              <div 
            	<div class = "row">
-            	<div class = "col-xs-10 col-xs-offset-2" >
+            	<div class = "col-xs-10 col-xs-offset-1" >
       				<img src = "img/events/soulection1.jpg">
             	</div>
            	</div><br> 
            	<div class = "row">
-            	<div  class = "col-xs-10 col-xs-offset-2" >
+            	<div  class = "col-xs-10 col-xs-offset-1" >
       				<img src = "img/events/soulection2.jpg">
             	</div>
            	</div>
            	<br> 
            	<div class = "row">
-            	<div  class = "col-xs-10 col-xs-offset-2" >
+            	<div  class = "col-xs-10 col-xs-offset-1" >
       				<img src = "img/events/soulection3.jpg">
             	</div>
            	</div><br> 
            	<div class = "row">
-            	<div  class = "col-xs-10 col-xs-offset-2" >
+            	<div  class = "col-xs-10 col-xs-offset-1" >
       				<img src = "img/events/soulection4.jpg">
             	</div>
            	</div><br> 
            	<div class = "row">
-            	<div  class = "col-xs-10 col-xs-offset-2" >
+            	<div  class = "col-xs-10 col-xs-offset-1" >
       				<img src = "img/events/soulection5.jpg">
             	</div>
            	</div>
            	<br>
            	<div class = "row">
-            	<div  class = "col-xs-10 col-xs-offset-2" >
+            	<div  class = "col-xs-10 col-xs-offset-1" >
       				<img src = "img/events/soulection6.jpg">
             	</div>
            	</div>
            	<br>
            	<div class = "row">
-            	<div  class = "col-xs-10 col-xs-offset-2" >
+            	<div  class = "col-xs-10 col-xs-offset-1" >
       				<img src = "img/events/soulection7.jpg">
             	</div>
            	</div>
@@ -99,29 +91,20 @@
 
       <br>
       <div id = "mail">
-   
 
-          <!-- Begin MailChimp Signup Form -->
-                                                
-                                            <!-- Begin MailChimp Signup Form -->
-                                    
-                                    <style type="text/css">
-                                      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-                                      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                                         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                                    </style>
-                                    <div id="mc_embed_signup">
-                                    <form action="//sensaimpact.us9.list-manage.com/subscribe/post?u=b091c1c50ca24fc093572edb1&amp;id=8e024a686e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+        <form action="//sensaimpact.us9.list-manage.com/subscribe/post?u=b091c1c50ca24fc093572edb1&amp;id=8e024a686e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
-                                        <div id="mc_embed_signup_scroll">
-                                      <label for="mce-EMAIL">Come Chill</label>                                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL"></label>                                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 
-                                      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_b091c1c50ca24fc093572edb1_8e024a686e" tabindex="-1" value=""></div></div>
-                                        </div>
-                                    </form>
-                                    </div>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_b091c1c50ca24fc093572edb1_8e024a686e" tabindex="-1" value=""></div></div>
+            </div>
+        </form>
+          </div>
 
                                     
            
@@ -130,15 +113,14 @@
            <br>
            <br>
            <br>
-      
+      </div>
           <div class = "text-center" id= "socialDiv" > 
+
       <a href = "http://waylessfamilia.tumblr.com/"> <img src = "img/icons/tumblr.png " id = "icons"></a>
       <a href = "https://instagram.com/waylesseffort/"><img src = "img/icons/instagram.png" id = "icons"></a>
       <a href = "https://www.facebook.com/WayLessEffort?fref=ts"><img src = "img/icons/facebook.png" id = "icons"></a>
     </div>
-
-
-
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
